@@ -1,0 +1,94 @@
+html(lang='ru' dir='ltr')
+head 
+    meta(charset="utf-8")
+    title Frontend Summer Camp
+    link(rel="stylesheet", href="./styles/style.css")
+body 
+    section.b-header 
+        div.container 
+            div.row 
+                div.col-xs-6 
+                    div.b-header__logo.b-logo  
+                    div.b-header__title Курьерская служба доставки              
+                div.col-xs-3.col-xs-offset-1 
+                    div.b-header__phone 8 (909) 023-12-51 
+                div.col-xs-2 
+                    div.b-header__button.b-button Вход
+    section.b-slider 
+        div.container.b-slide 
+            div.row 
+                div.col-xs-7.b-slide__textes 
+                    h2.b-slide__title Срочная доставка день в день 
+                    h3.b-slide__text Для тех, кто не может ждать у нас есть услуга срочной курьерской доставки корреспондеции и других видов отправлений. 
+            div.row 
+                div.col-xs-4 
+                    button.b-slide__button.b-button.b-button--primary Заказать доставку 
+            //- div.pos-right.b-slide__img
+            div.b-slider__img-right
+            div.b-slider__dots
+    section.b-info 
+        h3.b-info__header 5 шагов к заявке 
+        div.b-info__steps 
+            div.container 
+                div.row 
+                    div.col-xs-4 
+                        div.b-info__step.b-info__step--1 
+                            div.b-info__step-img  
+                            div.b-steps__step-title Расчет стоимости 
+                            div.b-steps__step-text Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.
+                    div.col-xs-4 
+                        div.b-info__step.b-info__step--2 
+                            div.b-info__step-img  
+                            div.b-steps__step-title Вызвать курьера 
+                            div.b-steps__step-text Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt. 
+                    div.col-xs-4 
+                        div.b-info__step.b-info__step--3 
+                            div.b-info__step-img  
+                            div.b-steps__step-title Оплатить услуги 
+                            div.b-steps__step-text Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt. 
+                div.row 
+                    div.col-xs-4.col-xs-offset-2 
+                        div.b-info__step.b-info__step--4 
+                            div.b-info__step-img  
+                            div.b-steps__step-title Заключить договор 
+                            div.b-steps__step-text Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt. 
+                    div.col-xs-4 
+                        div.b-info__step.b-info__step--5 
+                            div.b-info__step-img  
+                            div.b-steps__step-title Предоставить данные 
+                            div.b-steps__step-text Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt. 
+    section.b-footer 
+        div.container 
+            div.row 
+                div.col-xs-3 
+                    div.b-footer__logo.b-logo  
+                div.col-xs-6 
+                    nav.b-footer__menu 
+                        div.b-footer__menu-item  
+                            a(href="#") О компании 
+                        div.b-footer__menu-item  
+                            a(href="#") Доставка из Китая 
+                        div.b-footer__menu-item  
+                            a(href="#") Вакансии 
+                        div.b-footer__menu-item  
+                            a(href="#") Все услуги 
+                        div.b-footer__menu-item  
+                            a(href="#") Клиенту 
+                        div.b-footer__menu-item  
+                            a(href="#") Акции 
+                        div.b-footer__menu-item  
+                            a(href="#") Франчайзинг 
+                div.col-xs-3 
+                    div.b-footer__address 
+                        | manager@uexpress.ru
+                        br 
+                        br  
+                        | 115221, г. Челябинск,
+                        br  
+                        | ул. Северная, д. 29-в
+                        br 
+                        br  
+                        | Мы работаем по 24 часа
+                        br  
+                        | 5 дней в неделю
+    script(type="text/javascript" src="./scripts/index.js")
